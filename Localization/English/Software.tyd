@@ -110,7 +110,7 @@ Software
     GameEngine
         [
         "Game Engine"
-        "A game engine is a software development environment specifically tailored for creating videogames"
+        "A game engine is a software development environment specifically tailored for creating video games"
         ]
     Features
         [
@@ -534,7 +534,7 @@ Software
             On-screencontroller
                 [
                 "On-screen controller"
-                "Forget the drone's controller at home? Use onscreen controls instead! It's only slightly worse"
+                "Forgot the drone controller at home? Use onscreen controls instead! It's only slightly worse"
                 ]
             }
         Feature { Missionplanner "Mission planner" }
