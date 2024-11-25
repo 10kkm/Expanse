@@ -6,7 +6,7 @@ Move the Expanse folder that is inside the zip to the Mods folder in your Softwa
 CONTRIBUTING TRANSLATIONS
 ----------
 Please visit the GitHub page for info on contributing translations:
-https://github.com/MrNewcity/Expanse-Software-Suite
+https://github.com/10kkm/Expanse
 
 LICENSE
 ----------
@@ -28,5 +28,6 @@ See <http://www.gnu.org/licenses/gpl-3.0.html>
 
 CONTACT
 ----------
-Discord: mrnewcity#6216 - I'm on the Software Inc. discord
-Steam Page: https://steamcommunity.com/sharedfiles/filedetails/?id=2186957033
+Discord: mrnewcity#6216 - I'm on the Software Inc. discord 
+Discord: 10kk - I'm on the Software Inc. discord
+Steam Page: https://steamcommunity.com/workshop/filedetails/?id=3372003760

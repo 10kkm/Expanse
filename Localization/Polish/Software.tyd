@@ -1,0 +1,2230 @@
+Software
+    {
+    VideoEditor
+        [
+        "Edytor Wideo"
+        "Do postprodukcji cyfrowego wideo używany jest edytor wideo"
+        ]
+    Features
+        [
+        Feature
+            {
+            Video [ "Wideo"; "Wideo jest jednym z ważniejszych aspektów edytora wideo" ]
+            }
+        Feature
+            {
+            Videotransitions
+                [
+                "Przejścia"
+                "Wytarcie. Zanikanie. Krzyżowe przejście. Cięcie. Ślizg. I wiele więcej!"
+                ]
+            }
+        Feature
+            {
+            Textrendering
+                [
+                "Renderowanie tekstu"
+                "Jak inaczej dodasz kilkanaście napisów studyjnych?"
+                ]
+            }
+        Feature
+            {
+            Noisereduction [ "Redukcja szumu"; "Uzyskaj wyraźny obraz z ziarnistego materiału wideo" ]
+            }
+        Feature
+            {
+            Colourcorrection [ "Kolor korekcja"; "W dzisiejszych czasach wszyscy to robią" ]
+            }
+        Feature
+            {
+            Videoeffects [ "Efekty"; "Wybuchy! Blur! Deszcz! Wypaczenie! Dym!" ]
+            }
+        Feature { Stabilization "Stabilizacja obrazu" }
+        Feature { Tracking "Śledzenie" }
+        Feature
+            {
+            Transformations [ "Transformacje"; "Powiększenie, pomniejszenie, obracanie, itp." ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature
+            {
+            Multi-tracktimeline
+                [
+                "Wielościeżkowa oś czasu"
+                "Jeśli chcesz mieć więcej niż jedną rzecz w swoim filmie, jest to niezbędne"
+                ]
+            }
+        Feature
+            {
+            Multicamediting
+                [
+                "Edycja wielokamerowa"
+                "Do miliona ujęć tego samego obiektu. Wow, jakie to ekscytujące!"
+                ]
+            }
+        Feature { System "System" }
+        Feature { RAWvideoimport "Import RAW wideo" }
+        Feature
+            {
+            Videocodecs
+                [
+                "Kodeki wideo"
+                "Są one dość istotne ze względu na istnienie około 48 miliardów różnych formatów wideo!"
+                ]
+            }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Bundledhardwarecontrolpanel
+                [
+                "Dołączony panel sterowania"
+                "Sprzedaż fizyczna przynosi dodatkowy zysk {Currency:75}, ale wyprodukowanie kopii kosztuje dodatkowo {Currency:50}"
+                ]
+            }
+        Feature
+            {
+            Audio [ "Dźwięk"; "Video and audio go together like milk and cookies" ]
+            }
+        Feature { Audiomixing "Miksowanie dźwięku" }
+        Feature { Audioeffects "Efekty dźwiękowe" }
+        Feature
+            {
+            3Dworkspace [ "Obszar roboczy 3D"; "Pracuj z obiektami 3D bezpośrednio w edytorze" ]
+            }
+        Feature { 3Deffects "Efekty 3D" }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Auto-update
+                [
+                "Automatyczne aktualizacje"
+                "Trzymamy kciuki, aby Twój projekt nie uległ uszkodzeniu w nowej wersji!"
+                ]
+            }
+        Feature { Cloudsync "Synchronizacja z chmurą" }
+        ]
+    }
+
+Software
+    {
+    GameEngine
+        [
+        "Silnik Gier"
+        "Silnik gier to środowisko programistyczne dostosowane specjalnie do tworzenia gier wideo"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature { Debugger "Debuger" }
+        Feature { Scripting "Skrypty" }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Devicesimulator
+                [
+                "Symulowanie urządzeń"
+                "O wiele łatwiejsze niż wysyłanie gry na konsolę za każdym razem, gdy chcesz ją przetestować"
+                ]
+            }
+        Feature { Performanceprofiling "Profilowanie wydajności" }
+        Feature { Threadmanagement "Zarządzanie wątkami" }
+        Feature { 2Drendering "Renderowanie 2D" }
+        Feature
+            {
+            Filebrowser
+                [
+                "Przeglądanie plików"
+                "Cóż, nie zamierzasz chyba utworzyć tylko jednego pliku, prawda?"
+                ]
+            }
+        Feature
+            {
+            2Dassets [ "Zasoby 2D"; "Pomóż twórcom, udostępniając gotowe zasoby" ]
+            }
+        Feature
+            {
+            Visualprogramming
+                [
+                "Wizualne Programowanie"
+                "To jak zwykłe programowanie, ale częściej używasz myszy"
+                ]
+            }
+        Feature { UIcreationtool "Narzędzie do tworzenia interfejsu" }
+        Feature { Multi-displayrendering "Renderowanie na wielu ekranach" }
+        Feature { 3Drendering "Renderowanie 3D" }
+        Feature
+            {
+            3Dassets [ "Zasoby 3D"; "Podobnie jak zasoby 2D, ale z dodatkowym wymiarem" ]
+            }
+        Feature { Physicsengine "Silnik fizyki" }
+        Feature
+            {
+            Integratedshaders [ "Zintegrowane shadery"; "Spraw, aby gry wyglądały lepiej, bez nadmiernego wysiłku!" ]
+            }
+        Feature
+            {
+            Assetoptimization [ "Optymalizacja zasobów"; "Narzędzia pomagające optymalizować złożone modele 3D" ]
+            }
+        Feature
+            {
+            Pointcloudintegration
+                [
+                "Integracja chmury punktów"
+                "Pozwól programistom importować modele chmur punktów uzyskanych w wyniku skanowania laserowego różnych rzeczy ze świata rzeczywistego"
+                ]
+            }
+        Feature { Audio "Dźwięk" }
+        Feature
+            {
+            Soundeffects
+                [
+                "Efekty dźwiękowe"
+                "Pomóż twórcom gier, udostępniając im darmowe efekty dźwiękowe"
+                ]
+            }
+        Feature { Video "Wideo" }
+        Feature { Network "Sieć" }
+        Feature { Cloudsync "Synchronizacja z chmurą" }
+        Feature
+            {
+            Simultaneouscollaboration
+                [
+                "System współpracy"
+                "Masz więcej niż jednego programistę? To może się przydać"
+                ]
+            }
+        Feature { Multiplayerdeploymenttools "Narzędzia trybu dla wielu graczy" }
+        Feature
+            {
+            Assetmarketplace
+                [
+                "Rynek zasobów do gier"
+                "Pozwól użytkownikom sprzedawać i kupować niestandardowe zasoby. Od każdego zakupu na tej platformie pobierasz niewielką tantiemę"
+                ]
+            }
+        Feature { Newsoundeffects "Nowe efekty dźwiękowe" }
+        Feature { New3Dassets "Nowe zasoby 3D" }
+        Feature { New2Dassets "Nowe zasoby 2D" }
+        Feature { HUDelements "Elementy HUDu" }
+        Feature { Music "Muzyka" }
+        Feature { Gameworldenvironments "Środowiska świata gry" }
+        Feature { NPCAItemplates "Szablony AI NPCtów" }
+        Feature
+            {
+            Optimizedassets [ "Zoptymalizowane zasoby"; "Mniej wielokątów = więcej kl./s!" ]
+            }
+        Feature
+            {
+            Modularmodels
+                [
+                "Modele modułowe"
+                "Zmieniaj na bieżąco części obiektów 3D, takie jak ubrania, rekwizyty i twarze!"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            Assetpack [ "Pakiet Zasobów"; "Nieźle" ]
+            }
+        ]
+    }
+
+Software
+    {
+    DevelopmentEnvironment
+        [
+        "Środowisko Deweloperskie"
+        "IDE to platforma z zestawami narzędzi do tworzenia oprogramowania w jednej aplikacji"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Compiler
+                [
+                "Kompilator"
+                "To sprytne narzędzie przetłumaczy Twój kod na język komputera"
+                ]
+            }
+        Feature { Debugger "Debuger" }
+        Feature
+            {
+            Liveerrordetection
+                [
+                "Wykrywanie błędów na żywo"
+                "Teraz nie musisz czekać do czasu kompilacji, aby dowiedzieć się, jak słaby jesteś w programowaniu!"
+                ]
+            }
+        Feature
+            {
+            Multipleprogramminglanguages
+                [
+                "Wiele języków programowania"
+                "Umożliw swoim użytkownikom wielojęzyczność"
+                ]
+            }
+        Feature { Versioncontrolsystem "System kontroli wersji" }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature { Codeprofiler "Profiler kodu" }
+        Feature
+            {
+            Intelligentcodecompletion
+                [
+                "Inteligentne uzupełnianie kodu"
+                "Pozwól komputerowi odgadnąć, co chcesz napisać. Czasami zgadnie poprawnie!"
+                ]
+            }
+        Feature
+            {
+            Devicesimulator
+                [
+                "Symulowanie urządzeń"
+                "Graj na telefonie, wygodnie na komputerze"
+                ]
+            }
+        Feature
+            {
+            AI-enhancedcodecompletion
+                [
+                "Uzupełnianie kodu przez SI"
+                "Przyjrzyj się projektom użytkowników za pomocą sztucznej inteligencji, aby usprawnić uzupełnianie kodu. Może to zwiększyć sprzedaż ze względu na lepsze doświadczenie w kodowaniu, ale może również prowadzić do większej liczby błędów"
+                ]
+            }
+        Feature
+            {
+            Interface [ "Interfejs"; "Interfejs użytkownika znacznie ułatwi programowanie" ]
+            }
+        Feature
+            {
+            Syntaxhighlighting
+                [
+                "Podświetlanie składni"
+                "Kod, który znasz i uwielbiasz, teraz w kolorze!"
+                ]
+            }
+        Feature
+            {
+            Filebrowser
+                [
+                "Przeglądanie plików"
+                "Cóż, nie zamierzasz chyba utworzyć tylko jednego pliku, prawda?"
+                ]
+            }
+        Feature
+            {
+            Searchbox [ "Pole wyszukiwania"; "Zgubiłeś coś? Spróbuj to wyszukać!" ]
+            }
+        Feature
+            {
+            Visualprogramming
+                [
+                "Wizualne Programowanie"
+                "Dlaczego nie wypróbować, przesuwania bloków za pomocą myszki, zamiast wpisywania kodu?"
+                ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Cloudsync
+                [
+                "Synchronizacja z chmurą"
+                "Martwisz się, że Twój dysk twardy ulegnie awarii? Zamiast tego powierz swój projekt obcym serwerom!"
+                ]
+            }
+        Feature
+            {
+            Databaseintegration
+                [
+                "Integracja baz danych"
+                "Dostęp do baz danych bezpośrednio z IDE! Jak wspaniale! Wow!"
+                ]
+            }
+        Feature
+            {
+            Simultaneouscollaboration
+                [
+                "System współpracy"
+                "Pozwól programistom kłócić się ze sobą za pomocą kodu w czasie rzeczywistym"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    QuantumComputer
+        [
+        "Komputer Kwantowy"
+        "Komputery kwantowe przypominają zwykłe komputery, ale wykorzystują mechanikę kwantową zamiast starej, nudnej mechaniki klasycznej"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Physicssimulator
+                [
+                "Symulator fizyki"
+                "Symulowanie fizyki kwantowej na komputerze kwantowym... kwanto-ceptcja?"
+                ]
+            }
+        Feature { Chemistrysimulator "Symulator chemiczny" }
+        Feature
+            {
+            Biologysimulator
+                [
+                "Symulator biologiczny"
+                "Może to pomoże nam odnaleźć sens życia?"
+                ]
+            }
+        Feature { Integerfactorization "Faktoryzacja liczb całkowitych" }
+        Feature { Quantummachinelearning "Kwantowe uczenie maszynowe" }
+        Feature
+            {
+            Programmingkit
+                [
+                "Zestaw do programowania"
+                "Ułatw użytkownikom programowanie własnych funkcji i algorytmów kwantowych"
+                ]
+            }
+        Feature
+            {
+            Optimizationalgorithms
+                [
+                "Algorytmy optymalizacyjne"
+                "Korzystaj z wysokopoziomowych modeli do rozwiązywania problemów optymalizacyjnych w logistyce, zarządzaniu zasobami i nie tylko. Czy to nie brzmi jak dobra zabawa?"
+                ]
+            }
+        Feature
+            {
+            Financialalgorithms
+                [
+                "Algorytmy finansowe"
+                "Analiza ryzyka, scoring kredytowy, optymalizacja portfolio i nie tylko!"
+                ]
+            }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Decoherencemitigation
+                [
+                "Redukcja dekoherencji"
+                "Dekoherencja kwantowa, znana również jako \"szum\", stanowi duży problem komputerów kwantowych. Dzięki tej funkcji możesz pomóc zredukować wpływ hałasu. Dzięki temu użytkownicy będą mniej skłonni do zwrotu pieniędzy za produkt"
+                ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature
+            {
+            Searchtool
+                [
+                "Narzędzie wyszukiwania"
+                "Przeszukiwanie dużej ilości danych jest znacznie szybsze dzięki mocy obliczeń kwantowych"
+                ]
+            }
+        Feature
+            {
+            Quantumimageencoding
+                [
+                "Kwantowe kodowanie obrazu"
+                "Okazuje się, że przetwarzanie obrazów za pomocą obliczeń kwantowych jest znacznie szybsze i znacznie wydajniejsze"
+                ]
+            }
+        Feature
+            {
+            Modelvisualization
+                [
+                "Wizualizacja modeli"
+                "Ludzie mogą być zmęczeni patrzeniem na kod, algorytmy i dane. Zamiast tego pokaż im ładne wykresy i diagramy"
+                ]
+            }
+        Feature { Visualcircuitcomposer "Kompozytor obwodu wizualnego" }
+        Feature
+            {
+            3Drendering
+                [
+                "Renderowanie 3D"
+                "Daj swojemu systemowi kwantowemu możliwość renderowania obiektów 3D i interakcji z nimi"
+                ]
+            }
+        Feature
+            {
+            Videosupport
+                [
+                "Wsparcie wideo"
+                "Daj swojemu systemowi kwantowemu możliwość interakcji z filmami wideo"
+                ]
+            }
+        Feature { Quantumvideoencoding "Kwantowe kodowanie wideo" }
+        Feature { Network "Sieć" }
+        Feature { Auto-update "Automatyczne aktualizacje" }
+        Feature
+            {
+            Cloudbackup
+                [
+                "Kopia zapasowa w chmurze"
+                "Twórz kopie zapasowe kwantowych danych użytkowników w kwantowej chmurze. Żartuję, to zwykła chmura"
+                ]
+            }
+        Feature { Hardware "Sprzęt komputerowy" }
+        Feature
+            {
+            Lowpressureoperation
+                [
+                "Działanie pod niższym ciśnieniem"
+                "Zmniejszenie ciśnienia atmosferycznego w komputerze kwantowym może sprawić, że będzie on znacznie bardziej niezawodny"
+                ]
+            }
+        Feature
+            {
+            Dopplercooling
+                [
+                "Chłodzenie dopplerowskie"
+                "Zasadniczo chłodzenie kubitów sprawia, że ​​stają się one lepszymi kubitami"
+                ]
+            }
+        Feature
+            {
+            Midcircuitmeasurement
+                [
+                "Pomiar obwodu środkowego"
+                "Mierz stany kwantowe i zmieniaj obliczenia w locie"
+                ]
+            }
+        ]
+    Components
+        [
+        Component { Lasercooler "Laserowa chłodnica" }
+        Component { Vacuumpump "Pompa próżniowa" }
+        Component { Board "Płyta główna" }
+        Component { Screen "Wyświetlacz" }
+        Component { Qubitregister "Rejestr Qubitów" }
+        Component { Advancedgates "Zaawansowane bramki" }
+        Component { Quantumprocessor "Procesor kwantowy" }
+        Component { Signalconverter "Konwerter sygnału" }
+        Component { Controller "Kontroler" }
+        Component { Controlcomputer "Komputer sterujący" }
+        Component { Quantumcomputer "Komputer kwantowy" }
+        ]
+    }
+
+Software
+    {
+    Drone
+        [
+        "Dron"
+        "Dron jest jak minihelikopter, który nie wymaga licencji ani przeszkolenia, aby latać. To może być problem..."
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Droneprogramming
+                [
+                "Programowanie dronów"
+                "Zaawansowani użytkownicy mogą chcieć pisać programy dla swoich dronów, zamiast nimi latać. Kujoni!"
+                ]
+            }
+        Feature
+            {
+            Followmode [ "Tryb podążania"; "Chcesz dać się prześladować dronowi? Teraz już możesz" ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature { Integratedtutorials "Zintegrowane poradniki" }
+        Feature { Logbook "Logbook" }
+        Feature
+            {
+            On-screencontroller
+                [
+                "Kontroler ekranowy"
+                "Zapomniałeś kontrolera z domu? Zamiast tego używaj sterowania na ekranie! Jest tylko trochę trudniej"
+                ]
+            }
+        Feature { Missionplanner "Planowanie misji" }
+        Feature { Terrainmapping "Mapowanie terenu" }
+        Feature { Videography "Filmowanie" }
+        Feature
+            {
+            FPVsystem
+                [
+                "System FPV"
+                "Pozwól użytkownikom podłączyć zestaw VR i latać dronem w pierwszej osobie!"
+                ]
+            }
+        Feature { Digitalzoom "Cyfrowe powiększenie" }
+        Feature { Tracking "Śledzenie" }
+        Feature
+            {
+            Autocameraadjustment
+                [
+                "Automatyczna regulacja kamery"
+                "ISO? F-stop? Ekspozycja? Nikt nie chce się tym wszystkim zajmować"
+                ]
+            }
+        Feature
+            {
+            Obstacleavoidance
+                [
+                "Unikanie przeszkód"
+                "Dron widzi i omija przeszkody. Całkiem normalne dla nas, ludzi, ale już trudniejsze dla dronów"
+                ]
+            }
+        Feature { Hardware "Sprzęt komputerowy" }
+        Feature { Auto-stabilization "Automatyczna stabilizacja" }
+        Feature
+            {
+            GPS [ "GPS"; "Ulepsz autopilota drona dzięki Globalnemu Systemowi Pozycjonowania!" ]
+            }
+        Feature
+            {
+            Sportmode [ "Tryb Sportowy"; "Dostarcz WIĘKSZĄ MOC do silników, aby uzyskać WIĘKSZĄ PRĘDKOŚĆ" ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Cloudsync
+                [
+                "Synchronizacja z chmurą"
+                "Synchronizuj dane drona, takie jak nagrania wideo, dane GPS i inne, z chmurą. Na wypadek, gdybyś rozbił drona"
+                ]
+            }
+        Feature
+            {
+            Multi-droneconnection
+                [
+                "Połączenie wielu dronów"
+                "Połącz ze sobą drony, aby zsynchronizować ujęcia filmowe, wykonywać misje z udziałem wielu dronów lub robić, co tylko chcesz, z grupą dronów"
+                ]
+            }
+        Feature
+            {
+            Displayfeed
+                [
+                "Wyświetlanie obrazu"
+                "Wyświetl widok drona bezpośrednio na kontrolerze!"
+                ]
+            }
+        Feature { Motioncontrols "Sterowanie" }
+        ]
+    Categories
+        [
+        Category { Remotecontrol "Zdalne Sterowanie" }
+        ]
+    Components
+        [
+        Component { Camera "Kamera" }
+        Component { GPS "GPS" }
+        Component { Battery "Bateria" }
+        Component { Gyroscope "Żyroskop" }
+        Component { Motors "Sliniki" }
+        Component { Plastic "Plastik" }
+        Component { Dronebody "Korpus drona" }
+        Component { Motherboard "Płyta główna" }
+        Component { Batterypack "Paczka baterii" }
+        Component { Controller "Kontroler" }
+        Component { Case "Obudowa" }
+        Component { Screen "Wyświetlacz" }
+        Component { Antenna "Antena" }
+        ]
+    }
+
+Software
+    {
+    3DPrintingSystem
+        [
+        "Drukarka 3D"
+        "Drukarka 3D jest bardzo podobna do zwykłej drukarki, tylko ma dodatkowe wymiary"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Manualprintercontrol
+                [
+                "Ręczne sterowanie drukarką"
+                "Desteś neurochirurgiem? Nie? No to życzę powodzenia"
+                ]
+            }
+        Feature { Batchoperationstool "Narzędzie operacji wsadowych" }
+        Feature { Interface "Interfejs" }
+        Feature { Integratedtutorials "Zintegrowane poradniki" }
+        Feature { 3Dslicing "Przecinanie 3D" }
+        Feature
+            {
+            Presets
+                [
+                "Presety"
+                "Zintegruj gotowe profile ustawień dla różnych drukarek i aplikacji"
+                ]
+            }
+        Feature
+            {
+            Printsimulation
+                [
+                "Symulacja wydruku"
+                "Zobacz dokładnie, jak drukarka 3D wydrukuje obiekt, zanim to zrobi. To jak wehikuł czasu, ale o wiele mniej fajny"
+                ]
+            }
+        Feature { Supportmaterialgenerator "Generator materiałów pomocniczych" }
+        Feature
+            {
+            Sequencing
+                [
+                "Sekwencjonowanie"
+                "Wydrukuj jedną rzecz, a potem następną, wszystko to w jednym zadaniu!"
+                ]
+            }
+        Feature
+            {
+            Dynamiclayerthickness
+                [
+                "Dynamiczna grubość warstwy"
+                "Zmień tryb z wysokiej szczegółowości na dużą prędkość"
+                ]
+            }
+        Feature { Hardware "Sprzęt komputerowy" }
+        Feature { Wirelesstechnology "Technologia bezprzewodowa" }
+        Feature { Autolevelling "Automatyczne poziomowanie" }
+        Feature
+            {
+            Dualextruders [ "Podwójne wytłaczarki"; "Dwa razy więcej zabawy!" ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Multi-printerconnection
+                [
+                "Połączenie wielu drukarek"
+                "Zezwalaj użytkownikom na łączenie się z wieloma drukarkami z jednego komputera!"
+                ]
+            }
+        Feature
+            {
+            Cloudsync
+                [
+                "Synchronizacja z chmurą"
+                "Wydaje mi się, że niektórzy ludzie mogą potrzebować dostępu do swoich wydruków 3D z każdego miejsca na Ziemi"
+                ]
+            }
+        ]
+    Components
+        [
+        Component { Printingframe "Rama drukarki" }
+        Component { Case "Obudowa" }
+        Component { Levellingsensor "Czujnik poziomowania" }
+        Component { Display "Wyświetlacz" }
+        Component { Controlunit "Jednostka sterująca" }
+        Component { Wirelessreceiver "Odbiornik bezprzewodowy" }
+        Component { Microprocessor "Mikroprocesor" }
+        Component { Extruder "Wytłaczarka" }
+        Component { Dualextruder "Podwójne wytłaczarki" }
+        Component { Motors "Silniki" }
+        Component { Axiscarriages "Wózki osiowe" }
+        Component { Filamentspool "Szpula" }
+        ]
+    }
+
+Software
+    {
+    StreamingService
+        [
+        "Serwis Streamingowy"
+        "Serwisy streamingowe umożliwiają użytkownikom na przesyłanie i odbieranie treści, takich jak muzyka lub filmy, przez Internet"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Recommendationalgorithm
+                [
+                "Algorytm rekomendacji"
+                "Polecaj treści użytkownikom na podstawie ich zainteresowań i ulubionych gatunków"
+                ]
+            }
+        Feature { Customplaylists "Niestandardowe playlisty" }
+        Feature
+            {
+            Subscriptions
+                [
+                "Subskrypcje"
+                "Pozwól użytkownikom subskrybować gatunki lub twórców, których lubią"
+                ]
+            }
+        Feature { Downloading "Pobieranie" }
+        Feature
+            {
+            Auto-play [ "Automatyczne odtwarzanie"; "Spraw, aby oglądanie seriali było dużo łatwiejsze" ]
+            }
+        Feature { Shuffleplayback "Losowe odtwarzanie" }
+        Feature
+            {
+            Queue [ "Kolejka"; "Ułóż piosenki w linii, a potem pobaw się w domino" ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature
+            {
+            Coverart
+                [
+                "Okładki"
+                "Wyświetlaj okładki i miniatury filmików, filmów i seriali"
+                ]
+            }
+        Feature
+            {
+            Thumbnailsandalbumart
+                [
+                "Miniatury i okładki albumów"
+                "Wyświetlaj okładki albumów muzycznych oraz miniatury podcastów i audiobooków"
+                ]
+            }
+        Feature { Sceneselectionmenu "Menu wyboru sceny" }
+        Feature
+            {
+            On-screenwidgets
+                [
+                "Widżety na ekranie"
+                "Zezwalaj twórcom na dodawanie widżetów, takich jak linki do playlist, linki do filmów i tekst na górze filmów"
+                ]
+            }
+        Feature
+            {
+            Charts
+                [
+                "Wykresy"
+                "Ułatw użytkownikom dołączanie do modnych trendów, wyświetlając wykresy najpopularniejszych treści"
+                ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Continuity
+                [
+                "Ciągłość"
+                "Zachowaj stan po zamknięciu aplikacji lub zmianie urządzenia"
+                ]
+            }
+        Feature
+            {
+            On-airstreaming [ "Kanały telewizyjne"; "Oglądaj programy tak, jak odtwarzają je kanały telewizyjne" ]
+            }
+        Feature
+            {
+            Radiochannelstreaming
+                [
+                "Radio"
+                "Słuchaj stacji radiowych na żywo. Bo... chyba lubisz słuchać reklam?"
+                ]
+            }
+        Feature
+            {
+            Video
+                [
+                "Wideo"
+                "Wideo jest ważne w przypadku filmów, seriali czy podcastów"
+                ]
+            }
+        Feature { Highdefinitionvideo [ "High Definition Video"; "Oglądaj filmy w HD" ] }
+        Feature
+            {
+            3Dfilmsupport [ "Wsparcie dla filmów 3D"; "Załóż te okulary 3D!" ]
+            }
+        Feature
+            {
+            Advertisements
+                [
+                "Reklamy"
+                "Wyświetlaj reklamy przed filmami, aby zarobić dodatkowe pieniądze. Może to zniechęcić część użytkowników do korzystania z platformy"
+                ]
+            }
+        Feature { Audio "Dźwięk" }
+        Feature
+            {
+            Hi-fiaudio
+                [
+                "Dźwięk Hi-fi"
+                "Audiofile uwielbiają udawać, że słyszą różnicę między tym a zwykłym dźwiękiem!"
+                ]
+            }
+        Feature { Integratedequalizer "Zintegrowany equalizer" }
+        Feature
+            {
+            Exclusiveartists
+                [
+                "Ekskluzywni artyści"
+                "Zapłać grupie popularnych artystów 15% ze sprzedaży, aby korzystali wyłącznie z Twojej platformy i tym zwiększyć sprzedaż"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            Audio [ "Audio"; "Media zorientowane na uszy, takie jak muzyka i podcasty" ]
+            }
+        Category
+            {
+            Video [ "Wideo"; "Media zorientowane na wzrok, takie jak filmy i seriale telewizyjne" ]
+            }
+        ]
+    }
+
+Software
+    {
+    CommunicationApplication
+        [
+        "Aplikacja do Komunikacji"
+        "Te aplikacje umożliwiają ludziom interakcję z innymi za pośrednictwem Internetu"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Codecs [ "Kodeki"; "Musisz kompresować. Przepustowość nie rośnie na drzewach!" ]
+            }
+        Feature { Encryption "Szyfrowanie" }
+        Feature
+            {
+            Customchannels
+                [
+                "Niestandardowe Kanały"
+                "Pozwól użytkownikom tworzyć i zarządzać własnymi kanałami lub 'serwerami' dla grupy osób"
+                ]
+            }
+        Feature
+            {
+            Filesharing [ "Udostępnianie plików"; "Pozwól użytkownikom udostępniać zdjęcia, filmy i pliki" ]
+            }
+        Feature
+            {
+            Interface [ "Interfejs"; "Jeśli nie widzisz czatu, jaki jest tego sens?" ]
+            }
+        Feature
+            {
+            Readreceipts [ "Potwiedzenie przeczytania"; "Dowiedz się, kto celowo Cię unika" ]
+            }
+        Feature { Emojisandavatars "Emotikony i awatary" }
+        Feature
+            {
+            In-appoverlay
+                [
+                "Nakładka w aplikacji"
+                "Nakładka umożliwiająca szybki dostęp do komunikatora podczas pracy w innym programie"
+                ]
+            }
+        Feature
+            {
+            Contactslist [ "Lista kontaktów"; "Tak jakby ktoś chciał zapamiętywać wszystkich swoich znajomych" ]
+            }
+        Feature { Network "Sieć" }
+        Feature { Auto-update "Automatyczne aktualizacje" }
+        Feature
+            {
+            Cloudsync
+                [
+                "Synchronizacja z chmurą"
+                "Pozwól użytkownikom synchronizować kontakty, wiadomości itp. między swoimi urządzeniami"
+                ]
+            }
+        Feature
+            {
+            VoIP [ "VoIP"; "Dość klakania, po prostu porozmawiaj z ludźmi!" ]
+            }
+        Feature
+            {
+            Voicemessages [ "Wiadomości głosowe"; "Ponieważ niektórzy nie zawsze mogą być przy Tobie" ]
+            }
+        Feature
+            {
+            Speechtotext
+                [
+                "Zamiana mowy na tekst"
+                "Możliwość tłumaczenia mowy na tekst jest przydatna dla użytkowników niedosłyszących lub po prostu osób, które nie chcą słyszeć głosów swoich znajomych"
+                ]
+            }
+        Feature
+            {
+            Voicechanger [ "Modulator głosu"; "Ten sztuczka nigdy się nie zestarzeje… prawda?" ]
+            }
+        Feature
+            {
+            Speechdetection
+                [
+                "Wykrywanie mowy"
+                "Wyłącza mikrofon, gdy nie mówisz, i włącza go, gdy mówisz. To naprawdę proste"
+                ]
+            }
+        Feature
+            {
+            Videotelephony [ "Wideotelefonia"; "Pozwól użytkownikom widzieć swoje piękne twarze" ]
+            }
+        Feature
+            {
+            Groupvideocalls
+                [
+                "Grupowe rozmowy wideo"
+                "Spotkaj wiele osób podczas jednej rozmowy wideo. Idealne rozwiązanie w przypadku poważnej epidemii wirusa!"
+                ]
+            }
+        Feature
+            {
+            Screensharing
+                [
+                "Udostępnianie ekranu"
+                "Z jakiegoś powodu ludzie naprawdę lubią oglądać, jak inni grają w gry"
+                ]
+            }
+        Feature { Videofilters "Filtry wideo" }
+        ]
+    }
+
+Software
+    {
+    CloudStorageTool [ "Usługa Hostingowa Plików"; "Przechowuj pliki i dane w C H M U R Z E" ]
+    Features
+        [
+        Feature { System "System" }
+        Feature { Fileencryption "Szyfrowanie plików" }
+        Feature
+            {
+            Losslesscompression
+                [
+                "Bezstratna kompresja"
+                "Pliki mogą być bardzo delikatne i można to wykorzystać, aby je zmniejszyć przed przesłaniem"
+                ]
+            }
+        Feature
+            {
+            Filespanning
+                [
+                "Dzielenie plików"
+                "Automatycznie dziel duże pliki na mniejsze części przed ich przesłaniem"
+                ]
+            }
+        Feature
+            {
+            Filelocking
+                [
+                "Blokowanie plików"
+                "Wprowadź hasło za każdym razem, gdy chcesz zobaczyć plik. Wcale nie denerwuje!"
+                ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature { Search "Wyszukiwanie" }
+        Feature
+            {
+            Storagereports
+                [
+                "Statystyki plików"
+                "Pokaż użytkownikom ładny wykres wykorzystania ich przestrzeni w chmurze"
+                ]
+            }
+        Feature
+            {
+            Network
+                [
+                "Sieć"
+                "Uruchamiasz usługę w chmurze? Lepiej miej dużą pojemność serwera!"
+                ]
+            }
+        Feature
+            {
+            Auto-update [ "Automatyczne aktualizacje"; "Upewnij się, że użytkownicy korzystają z najnowszych usprawnień" ]
+            }
+        Feature
+            {
+            Trashretention
+                [
+                "Retencja kosza na śmieci"
+                "Przechowuj pliki w koszu na jakiś czas, na wypadek gdyby ktoś jednak zmienił zdanie"
+                ]
+            }
+        Feature
+            {
+            Remotedevicemanagement [ "Zdalne zarządzanie urządzeniami"; "Skradzione urządzenie? Niech wybuchnie!" ]
+            }
+        Feature { Publicfilesharing "Publiczne udostępnianie plików" }
+        Feature { High-speedtransfer "Szybki transfer" }
+        Feature
+            {
+            Mediastreaming [ "Strumieniowanie multimediów"; "Przesyłaj strumieniowo pliki multimedialne bezpośrednio z dysku w chmurze" ]
+            }
+        Feature
+            {
+            Automaticbackup [ "Automatyczna kopia zapasowa"; "Twórz kopie zapasowe urządzeń użytkowników w chmurze" ]
+            }
+        Feature
+            {
+            Foldersharing [ "Udostępnianie folderów"; "Daj innym dostęp do całego folderu" ]
+            }
+        Feature { Bulktransfer "Przesyłanie zbiorcze" }
+        ]
+    }
+
+Software
+    {
+    MappingApplication
+        [
+        "Aplikacja z Mapami"
+        "Ten rodzaj aplikacji zapewnia użytkownikom dostęp do map całego świata"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Mapdownloading
+                [
+                "Pobieranie map"
+                "Teraz nie potrzebujesz połączenia z Internetem, aby gdzieś pojechać!"
+                ]
+            }
+        Feature
+            {
+            Routestops
+                [
+                "Przystanki podczas trasy"
+                "Nie tylko możesz jechać z A do B, ale możesz też jechać z A do B do C!"
+                ]
+            }
+        Feature
+            {
+            Livefuelprices
+                [
+                "Ceny paliw na żywo"
+                "Pokaż użytkownikom najtańsze miejsce do zatankowania na trasie"
+                ]
+            }
+        Feature
+            {
+            Editor
+                [
+                "Edytor"
+                "Użytkownicy mogą wykonywać pracę i naprawiać brakujące rzeczy za Ciebie, i możesz to nazwać funkcją"
+                ]
+            }
+        Feature
+            {
+            Ratings [ "Oceny"; "Pozwól użytkownikom oceniać firmy i usługi bezpośrednio w aplikacji" ]
+            }
+        Feature { Distancetracker "Śledzenie odległości" }
+        Feature
+            {
+            Promotebusinesses
+                [
+                "System promocji"
+                "Zezwalaj firmom na płacenie {Currency:2} dziennie, aby mogły być nieco wyższą pozycję na listach w aplikacji"
+                ]
+            }
+        Feature { Interface "Interfejs" }
+		Feature
+            {
+            Favourites [ "Lista ulubionych"; "Miej oko na swoje ulubione miejsca" ]
+            }
+		Feature
+            {
+            Nightmode [ "Tryb Nocny"; "Zmień kolory map na ciemniejsze, żeby w nocy były one milsze dla oka" ]
+            }
+        Feature
+            {
+            Satelliteview [ "Widok satelitarny"; "Powinieneś sprawdzić Strefę 51" ]
+            }
+        Feature { Turn-by-turnnavigation "Nawigowanie krok po kroku" }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Real-timedatatransmission
+                [
+                "Transmitowanie danych na żywo"
+                "Pozwól urządzeniom użytkowników automatycznie przesyłać dane o ich prędkości i długości podróży, aby zmieniać informacje o ruchu drogowym i optymalizować trasy w czasie rzeczywistym"
+                ]
+            }
+        Feature
+            {
+            Cloudsync
+                [
+                "Synchronizacja z chmurą"
+                "Na wypadek, gdybyś zapomniał, gdzie jest Twój dom, możesz spać spokojnie, bo wiesz, że jest w chmurze"
+                ]
+            }
+        Feature
+            {
+            Informationcrowdsourcing
+                [
+                "Crowdsourcing informacji"
+                "Pozwól użytkownikom na przesyłanie informacji o ruchu drogowym i firmach podczas jazdy. To na pewno nie będzie problem"
+                ]
+            }
+        Feature { Spokendirections "Wymawiane kierunki" }
+        Feature
+            {
+            Customvoices [ "Niestandardowe głosy"; "Czy nie chcesz, żeby Darth Vader mówił Ci w którym kierunku masz jechać?" ]
+            }
+        Feature
+            {
+            3Dmapview
+                [
+                "Widok mapy w 3D"
+                "To jak wirtualne wakacje, w zaciszu własnego telefonu!"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    ArtificialIntelligenceSoftware
+        [
+        "Sztuczna Inteligencja"
+        "Rozwój sztucznej inteligencji pozwala przyczynić się do dominacji komputerów na Ziemi"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Chatbottoolkit
+                [
+                "Narzędzia Chatbota"
+                "Żaden z Twoich prawdziwych przyjaciół nie chce teraz rozmawiać? Skonfiguruj własnego bota, z którym możesz rozmawiać!"
+                ]
+            }
+        Feature
+            {
+            Machinelearningalgorithms
+                [
+                "Algorytmy uczenia maszynowego"
+                "Umożliw użytkownikom, aby mogli oni samodzielnie uczyć komputery"
+                ]
+            }
+        Feature { Naturallanguageprocessing "Przetwarzanie mowy" }
+        Feature { Automaticdatamanagement "Automatyczne zarządzanie danymi" }
+        Feature
+            {
+            Dataencryption
+                [
+                "Szyfrowanie danych"
+                "Nie ufasz całkowicie SI? Szyfruj swoje dane, zanim sztuczna inteligencja je przetworzy!"
+                ]
+            }
+        Feature
+            {
+            Logging [ "Logowanie"; "Śledź, co robi Twoja sztuczna inteligencja" ]
+            }
+        Feature
+            {
+            AIprocessexplainability
+                [
+                "Wyjaśnianie procesów SI"
+                "Wyświetl informacje o tym, co faktycznie robi sztuczna inteligencja pomiędzy danymi wejściowymi i wyjściowymi"
+                ]
+            }
+        Feature
+            {
+            Neuralnetworking
+                [
+                "Sieci neuronowe"
+                "Komputery z mózgami są lepsze niż komputery bez nich"
+                ]
+            }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature { Interface "Interfejs" }
+        Feature { Datavisualization "Wizualizacja danych" }
+        Feature { Visualmodelbuilding "Wizualne budowanie modelu" }
+        Feature
+            {
+            Imageidentification
+                [
+                "Identyfikowanie obrazu"
+                "Identyfikuj na obrazach takie elementy, jak tekst, twarze, obiekty i inne elementy"
+                ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Cybersecuritythreatdetection
+                [
+                "Wykrywanie cyber zagrożeń"
+                "Umożliw sztucznej inteligencji, poznawanie cyber zagrożenia, aby następnie je wykrywała. Ponieważ wpuszczenie systemu AI do serca Internetu z pewnością jest dobrym pomysłem"
+                ]
+            }
+        Feature
+            {
+            Deploymenttools
+                [
+                "Narzędzia implementacyjne"
+                "Zapewnij użytkownikom narzędzia do implementacji systemu sztucznej inteligencji do własnych baz danych i sieci"
+                ]
+            }
+        Feature 
+			{
+			Cloudplatform 
+				[
+				"Platforma w chmurze"
+				"Hostuj witrynę internetową, która umożliwi użytkownikom korzystanie z Twojej sztucznej inteligencji, nawet gdy nie mają mocnych komputerów"
+				]
+			}
+        Feature
+            {
+            Auto-update [ "Automatyczne aktualizacje"; "Zadbaj o aktualność systemu sztucznej inteligencji" ]
+            }
+        Feature
+            {
+            Video [ "Wideo"; "Czy system sztucznej inteligencji będzie kolejnym Martinem Scorsese??" ]
+            }
+        Feature
+            {
+            Videoidentification
+                [
+                "Identyfikowanie wideo"
+                "Identyfikuj w filmach osoby, tekst, lokalizacje i inne elementy"
+                ]
+            }
+        Feature
+            {
+            Roboticsintegration
+                [
+                "Integracja z robotyką"
+                "Umożliwiaj użytkownikom integrowanie sztucznej inteligencji z ich własnymi robotami. Być może nie jest to dobry pomysł, gdy teraz tak o tym myślę..."
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    LivestreamingSoftware
+        [
+        "Aplikacja do Transmitowania na Żywo"
+        "Transmisja na żywo to bardzo irytująca technicznie rzecz. Ułatw to innym, dzięki własnemu oprogramowaniu do strumienowania"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Codecs
+                [
+                "Kodeki"
+                "Powinieneś to mieć, chyba że chcesz, aby streamerzy płacili {Currency:10000} miesięcznie za rachunki"
+                ]
+            }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature
+            {
+            Randomizer
+                [
+                "Randomizer"
+                "Wybierz losowego obserwującego, subskrybenta lub widza. Zrób z tym, co chcesz"
+                ]
+            }
+        Feature
+            {
+            Interface [ "Interfejs"; "Musisz mieć tę chorą nakładkę!" ]
+            }
+        Feature
+            {
+            Widgets
+                [
+                "Widżety"
+                "Zasłaniaj obraz z gry za pomocą czatu, donacji i innych funkcji!"
+                ]
+            }
+        Feature
+            {
+            Interfacelayouteditor
+                [
+                "Edycja układu interfejsu"
+                "Pozwól streamerom zmieniać swój interfejs"
+                ]
+            }
+        Feature
+            {
+            In-gameoverlay
+                [
+                "Nakładka w grze"
+                "Pozwól streamerom kontrolować transmisję podczas gry! Prawdziwa wielozadaniowość!"
+                ]
+            }
+        Feature
+            {
+            Network [ "Sieć"; "Transmisja na żywo w dużej mierze opiera się na tym" ]
+            }
+        Feature
+            {
+            Multi-platformstreaming
+                [
+                "Transmisja wieloplatformowa"
+                "Desperacko pragniesz wyświetleń? Transmituj na kilka platform jednocześnie!"
+                ]
+            }
+        Feature
+            {
+            Automaticsocialmediapost
+                [
+                "Automatyczne posty"
+                "Automatyczne poinformuj świat o rozpoczęciu transmisji w mediach społecznościowych"
+                ]
+            }
+        Feature
+            {
+            Auto-update
+                [
+                "Automatyczne aktualizacje"
+                "Transmisje na żywo to techniczne piekło. Uczyń go mniej piekielnym, dzięki automatycznym aktualizacją"
+                ]
+            }
+        Feature
+            {
+            Chatbot
+                [
+                "Chat bot"
+                "Jeśli roboty mogą pokonać Cię w szachach, mogą też trzymać w ryzach niektóre dzieci"
+                ]
+            }
+        Feature
+            {
+            Donationservice
+                [
+                "Zintegrowany system donacji"
+                "Uruchom usługę donacji dla streamerów i otrzymuj % od donacji przekazanych streamerom za pośrednictwem tej usługi"
+                ]
+            }
+        Feature { Video "Wideo" }
+        Feature
+            {
+            Filters [ "Filtry"; "Dodaj dramatyczne kolory do dramatycznych transmisji z przeprosinami" ]
+            }
+        Feature
+            {
+            Integrateddisplaycapture
+                [
+                "Przechwytywanie obrazu"
+                "Zamiast pozostawiać użytkowników z koniecznością pobrania innego oprogramowania do przechwytywania ekranu, zintegruj narzędzia do przechwytywania ekranu z własnym programem!"
+                ]
+            }
+        Feature
+            {
+            Backgrounddetection
+                [
+                "Wykrywanie tła"
+                "Pozwól streamerom zmieniać to, co się za nimi kryje, bez green screena"
+                ]
+            }
+        Feature { Audio "Dźwięk" }
+        Feature
+            {
+            Audiomixing [ "Miksowanie dźwięku"; "Robią to wszyscy najlepsi streamerzy" ]
+            }
+        Feature
+            {
+            Texttospeech
+                [
+                "Zamiana tekstu na mowę"
+                "Niech robot odczyta obrzydliwe wiadomości wysyłane przez donatorów streamerom"
+                ]
+            }
+        Feature
+            {
+            Musiclibrary
+                [
+                "Biblioteka muzyki"
+                "Witryny streamingowe szaleją z powodu ostrzeżeń o naruszeniu praw autorskich. Daj użytkownikom dostęp do muzyki wolnej od praw autorskich do wykorzystania w swoich transmisjach"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    RobotSoftware
+        [
+        "Oprogramowanie Robota"
+        "Bez tego oprogramowania roboty są niczym. Bez robotów to oprogramowanie jest niczym."
+        ]
+    Features
+        [
+        Feature
+            {
+            System [ "System"; "Pomyśl o tym jak o duszy robota, albo może lepiej nie" ]
+            }
+        Feature { Timecodesupport "Wsparcie kodu czasowego" }
+        Feature
+            {
+            Deploymenttools
+                [
+                "Narzędzia implementacyjne"
+                "Jeśli próbujesz przejąć władzę nad światem, nie możesz pojedyńczo ulepszać robotów, bo zajmie Ci to wieki"
+                ]
+            }
+        Feature
+            {
+            GPSintegration
+                [
+                "Integracja GPS"
+                "\"I dokąd poszły te cholerne roboty?\" jest czymś, czego prawdopodobnie nie chcesz usłyszeć"
+                ]
+            }
+        Feature { Robotcalibration "Kalibracja robota" }
+        Feature
+            {
+            Postprocessors
+                [
+                "Post procesory"
+                "Umożliwia generowanie programów dla wielu różnych, zastrzeżonych języków robotów"
+                ]
+            }
+        Feature
+            {
+            Metricsaggregation
+                [
+                "Agregacja metryki"
+                "Umożliwia przechowywanie i przeglądanie wielu różnych informacji o robotach"
+                ]
+            }
+        Feature { Rootcauseanalysis "Analizowanie przyczyn" }
+        Feature
+            {
+            Softwaredevelopmentkit
+                [
+                "Zestaw programistyczny"
+                "Użytkownicy mogą chcieć tworzyć własne aplikacje dla swoich robotów"
+                ]
+            }
+        Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature { Interface "Interfejs" }
+        Feature
+            {
+            Customizableinterface [ "Konfigurowalny interfejs"; "Widzisz tylko to, co chcesz widzieć" ]
+            }
+        Feature
+            {
+            2Dvisualization
+                [
+                "Wizualizacja 2D"
+                "Znacznie łatwiej jest programować roboty, gdy ma się diagramy"
+                ]
+            }
+        Feature
+            {
+            Multi-cameraview [ "Widok z wielu kamer"; "Zobacz całą swoją armię robotów naraz" ]
+            }
+        Feature { 3Dvisualization "Wizualizacja 3D" }
+        Feature
+            {
+            Roboticsimulation
+                [
+                "Symulacja robotyki"
+                "O wiele łatwiej jest symulować program z wyprzedzeniem, niż rozbić robota o ścianę"
+                ]
+            }
+        Feature
+            {
+            VRvisualization [ "Wizualizacja VR"; "Immersja!" ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Teleoperation
+                [
+                "Teleoperacje"
+                "Znudziły Ci się zautomatyzowane programy, które zabierają całą zabawę? Teraz możesz sterować robotem ze swojego komputera!"
+                ]
+            }
+        Feature
+            {
+            Remotecontrols
+                [
+                "Zdalne sterowanie"
+                "Podłącz telefony, joysticki itp., aby pełniły rolę kontrolerów dla Twojego robota"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    ElectronicFlightBag
+        [
+        "Elektroniczna Torba Lotnicza"
+        "Taka aplikacja pomaga załogom i pilotom w wykonywaniu zadań związanych z zarządzaniem lotem"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Optimizedautorouting
+                [
+                "Zoptymalizowane wyznaczanie tras"
+                "Automatycznie twórz idealną trasę na podstawie modelu Twojego samolotu, pogody itp."
+                ]
+            }
+        Feature
+            {
+            IntegratedE6B
+                [
+                "Zintegrowany E6B"
+                "E6B to narzędzie do planowania lotu służące do obliczania takich parametrów, jak zużycie paliwa, czas podróży i nie tylko"
+                ]
+            }
+        Feature { Avionicsconnectivity "Połączenie z awioniką" }
+        Feature { Interface "Interfejs" }
+        Feature
+            {
+            Charts [ "Wykresy"; "VFR, IFR, taxi, jest tak wiele wykresów do wyboru!" ]
+            }
+        Feature { Missionplanner "Planowanie misji" }
+        Feature { Militarycharts "Wykresy wojskowe" }
+        Feature { Logbook "Logbook" }
+        Feature { Flightplanfiling "Składanie planów lotów" }
+        Feature { Militaryformfiling "Składanie formularzy wojskowych" }
+        Feature { Jetfuelordering "Zamawianie paliwa lotniczego" }
+        Feature
+            {
+            Pilottraining
+                [
+                "System szkolenia pilota"
+                "Zintegruj moduły szkoleniowe pilotów bezpośrednio z aplikacją"
+                ]
+            }
+        Feature
+            {
+            Militarymapdata
+                [
+                "Dane mapy wojskowej"
+                "Zintegruj z mapą dane specyficzne dla wojska, takie jak wojskowe trasy szkoleniowe i trasy tankowania w powietrzu"
+                ]
+            }
+        Feature
+            {
+            Weatherradarmapdata
+                [
+                "Radar pogodowy na mapie"
+                "Zintegruj bieżące informacje o pogodzie z mapą"
+                ]
+            }
+        Feature { 3D "3D" }
+        Feature
+            {
+            3Dairportview
+                [
+                "Widok lotniska w 3D"
+                "Zobacz swoje ulubione lotniska z góry, co możesz również zrobić, po prostu latając nad nimi"
+                ]
+            }
+        Feature { Terrainvisualization "Wizualizacja terenu" }
+        Feature { Network "Sieć" }
+        Feature { Planningcollaboration "Planowanie współpracy" }
+        Feature
+            {
+            Webapp
+                [
+                "Aplikacja internetowa"
+                "Hostuj witrynę internetową, która umożliwi pilotom planowanie lotów za pomocą przeglądarki internetowej"
+                ]
+            }
+        Feature
+            {
+            Auto-update
+                [
+                "Automatyczne aktualizacje"
+                "Automatycznie aktualizuj do najnowszych wykresów, map i danych"
+                ]
+            }
+        Feature
+            {
+            Passengerappconnectivity
+                [
+                "Połączenie z aplikacją pasażerską"
+                "Unikaj pytań \"Ile jeszcze?\" dzięki aplikacji dla pasażerów, dzięki której sami odpowiedzą na te pytania"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    BenchmarkSoftware
+        [
+        "Benchmark"
+        "Pozwól użytkownikom testować i oceniać sprzęt swojego komputera"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature
+            {
+            Temperaturemonitoring [ "Monitorowanie temperatury"; "Nie możesz dopuścić do tego, żeby Twój komputer miał gorączkę!" ]
+            }
+        Feature
+            {
+            Mathematicstest
+                [
+                "Testy matematyczne"
+                "Spraw, aby Twój komputer przebolał test z matematyki, tak jak wszyscy musieliśmy, gdy byliśmy młodzi"
+                ]
+            }
+        Feature { Name "Read/writethroughputtest"; Value "Test przepustowości odczytu/zapisu" }
+        Feature { Physicssimulationtest "Test symulacji fizyki" }
+        Feature { IOPStest "Test IOPS" }
+        Feature { Simultaneousmultithreadingsupport "Test wielowątkowości" }
+        Feature { 4Ksectortesting "Testowanie sektorów 4K" }
+        Feature
+            {
+            Multi-GPUsupport [ "Obsługa wielu GPU"; "Po co ograniczać się tylko do jednej karty graficznej w komputerze?" ]
+            }
+        Feature { 2Drenderingtest "Test renderowania 2D" }
+        Feature
+            {
+            Realtimedataoverlay
+                [
+                "Nakładka z danymi na żywo"
+                "Zobacz, ile klatek Twój komputer wyciąga... podczas gry! Jak immersywnie"
+                ]
+            }
+        Feature { Multi-displayrendering "Renderowanie na wielu ekranach" }
+        Feature { 3Drenderingtest "Test renderowania 3D" }
+        Feature { Fluidsimulationtest "Test symulacji płynów" }
+        Feature
+            {
+            Configurablegraphics
+                [
+                "Konfigurowalna grafika"
+                "Dziesiątki różnych ustawień znacznie komplikują testowanie grafiki"
+                ]
+            }
+        Feature
+            {
+            Benchmarkdatabase
+                [
+                "Baza danych benchmarków"
+                "Hostuj bazę danych, która agreguje wyniki testów wszystkich użytkowników"
+                ]
+            }
+        Feature
+            {
+            Comparisons [ "Porównania"; "Pomóż ludziom w podjęciu decyzji przy zakupie konkretnego sprzętu" ]
+            }
+        Feature
+            {
+            Resultskewing
+                [
+                "Przekrzywianie wyników"
+                "Zniekształcaj i zwiększaj wyniki testów określonego producenta w zamian za {Currency:0.5} na każdego aktywnego użytkownika. Jeśli zostaniesz na tym przyłapany, możesz otrzymać pozew konsumencki"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    FileArchiver
+        [
+        "Archiwizator plików"
+        "Archiwizator plików to narzędzie służące do łączenia wielu plików w jeden plik archiwum"
+        ]
+    Features
+        [
+        Feature { System "System" }
+        Feature { Encryption "Szyfrowanie" }
+        Feature { Shellintegration "Integracja z Shellem" }
+        Feature
+            {
+            Diskimagesupport [ "Obsługa obrazu dysku"; "Wspieraj otwieranie obrazów dysków" ]
+            }
+        Feature { Passwordlocking "Blokada hasłem" }
+        Feature
+            {
+            Adaptivedictionarycompression
+                [
+                "Adaptacyjna kompresja słownikowa"
+                "Skompresuj zdania jak na przykład \"The theatrical theives loathe the thespian\" do takich rzeczy \"% %atrical %ives loa% % %spian\". Tak działa kompresja!"
+                ]
+            }
+        Feature
+            {
+            Huffmancoding
+                [
+                "Kodowanie Huffmana"
+                "Ta metoda kompresji jest absurdalnie skomplikowana, ale działa. To wszystko, co musisz wiedzieć, resztę wiedzą tylko kujoni"
+                ]
+            }
+        Feature { Archiverepairtool "Narzędzie do naprawy archiwum" }
+        Feature
+            {
+            Self-extractingarchives
+                [
+                "Samorozpakowujące się archiwa"
+                "Pozwól użytkownikom tworzyć archiwa, które same się rozpakują!"
+                ]
+            }
+        Feature
+            {
+            Archivescanning [ "Skanowanie archiwum"; "Pozwól użytkownikom skanować archiwa w poszukiwaniu wirusów" ]
+            }
+        Feature { Interface "Interfejs" }
+        Feature { Search "Wyszukiwanie" }
+        Feature
+            {
+            Command-lineinterface
+                [
+                "Interfejs wiersza poleceń"
+                "Włącz automatyzację i skrypty za pomocą wiersza poleceń"
+                ]
+            }
+        Feature
+            {
+            Themes [ "Motywy"; "Spraw, aby archiwizacja plików wydawała się nieco mniej nudna" ]
+            }
+        Feature { Network "Sieć" }
+        Feature
+            {
+            Cloudbackup [ "Kopia zapasowa w chmurze"; "Automatycznie twórz kopie zapasowe archiwów użytkownika w chmurze" ]
+            }
+        ]
+    }
+	
+Software
+    {
+    OperatingSystem
+		[
+		]
+    Features
+        [
+		Feature
+            {
+            Automaticdrivermanagement [ "Menadżer sterowników"; "Problemy ze sterownikami są główną przyczyną awarii systemów. Możesz złagodzić ten problem dzięki tej funkcji" ]
+            }
+		Feature
+            {
+            Integratedscreencapture [ "Przechwytywanie ekranu"; "Kto chciałby kupować kartę przechwytującą wideo? Oto kto - Nikt!" ]
+            }
+        Feature { Hardwaresupport "Wsparcie sprzętowe" }
+        Feature
+            {
+            Haptictechnology [ "Technologia haptyczna"; "Wibracje to stare dzieje. Technologia haptyczna, to jest coś!" ]
+            }
+		Feature
+            {
+            Fingerprintscanner [ "Skaner odcisku palca"; "Zintegruj rozpoznawanie odcisku palca z systemem operacyjnym, aby użytkownicy mogli poczuć się jak szpiedzy podczas odblokowywania systemu" ]
+            }
+		Feature
+            {
+            Advancedhardwaresupport [ "Zaawansowane wsparcie sprzętowe"; "Umożliwiaj użytkownikom korzystanie z wielu procesorów i ogromnych ilości pamięci RAM, jest to bardzo przydatne w przypadku serwerów" ]
+            }
+        Feature { Pushnotifications "Powiadomienia push" }
+		Feature
+            {
+            Securityalerts [ "Alerty bezpieczeństwa"; "Teraz już wiesz, kiedy programy Cię szpiegują!" ]
+            }
+		Feature
+            {
+            Universaldarkmode [ "Uniwersalny ciemny tryb"; "Automatycznie zmieniaj ustawienia aplikacji w całym systemie, aby nie wypalić sobie oczu" ]
+            }
+		Feature { Video "Wideo" }
+		Feature
+            {
+            HDRvideosupport [ "Wsparcie HDR"; "Coś w rodzaju standardowego wideo, ale zakres dynamiczny jest wyższy. Co to znaczy? Who knows. But look, pretty colours!" ]
+            }
+		Feature { Spatialheadphonesupport "Dźwięk przestrzenny" }
+		Feature { Cloudserverbackup "Kopia zapasowa w chmurze" }
+		Feature
+            {
+            Cloudmigrationtools
+                [
+                "Narzędzia migracyjne do chmury"
+                "Zintegruj narzędzia, które pomogą użytkownikom w migracji danych do usługi przetwarzania w chmurze"
+                ]
+            }
+		Feature
+            {
+            Hotspotcreation
+                [
+                "Tworzenie hotspotów"
+                "Umożliw tworzenie hotspotów Wi-Fi dla plebsu niekomórkowego"
+                ]
+            }
+		Feature
+            {
+            Virtualnetworkmanager [ "Menedżer sieci wirtualnej"; "Sieci wirtualne nie będą zarządzać się same!" ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            Watch [ "Zegarek"; "Na nadgarstek" ]
+            }
+        Category
+            {
+            Server [ "Serwer"; "Do szafy" ]
+            }
+        Category
+            {
+            Car [ "Samochód"; "Do deski rozdzielczej" ]
+            }
+        ]
+    Components
+        [
+        Component { Hapticengine "Silnik haptyczny" }
+		Component { Strap "Pasek" }
+		Component { Watchassembly "Montaż zegarka" }
+		Component { Ventilation "Wentylator" }
+		Component { Drivers "Sterowniki" }
+		Component { Microcontroller "Mikrokontroler" }
+		Component { ANCprocessor "Procesor ANC" }
+		Component { Innerassembly "Montaż wewnętrzny" }
+		Component { Microphone "Mikrofon" }
+		Component { Headphonebody "Obudowa słuchawek" }
+		Component { Wirelessreceiver "Odbiornik bezprzewodowy" }
+        ]
+    }
+
+Software
+    {
+    2DEditor
+        [
+        ]
+    Features
+        [
+		Feature { Imagecodecs "Kodeki obrazu" }
+		Feature { Plug-insupport "Wsparcie wtyczek" }
+		Feature { Network "Sieć" }
+		Feature
+            {
+            Integratedsocialmediauploader
+                [
+                "Wbudowane przesyłanie"
+                "Przesyłaj swoje piękne obrazy prosto do mediów społecznościowych"
+                ]
+            }
+		Feature
+            {
+            Auto-update
+                [
+                "Automatyczne aktualizacje"
+                "Czasami ta funkcja działa poprawnie!"
+                ]
+            }
+		Feature { Cloudsync "Synchronizacja z chmurą" }
+        ]
+    }
+	
+Software
+    {
+    3DEditor 
+		[
+		]
+    Features
+        [
+        Feature { Interface "Interfejs" }
+		Feature
+            {
+            Keyframetimeline [ "Oś czasu kluczowych klatek"; "Klatki są kluczem do animacji" ]
+            }
+		Feature
+            {
+            Grapheditor [ "Edytor wykresów"; "Spójrz na te krzywe ruchu!" ]
+            }
+		Feature { Videoeditor "Wideo edycja" }
+		Feature
+            {
+            Compositor [ "Montażysta"; "Popraw to w poście!" ]
+            }
+		Feature { Tracking "Śledzenie" }
+		Feature { Plug-insupport "Wsparcie wtyczek" }
+		Feature	{ Network "Sieć" }
+		Feature { Auto-update "Automatyczne aktualizacje" }
+		Feature
+            {
+            Cloudsync [ "Synchronizacja z chmurą"; "Store your points in the cloud" ]
+            }
+        ]
+    }
+	
+Software
+    {
+    AudioTool
+        [
+        ]
+    Features
+        [
+		Feature { VSTintegration "Integracja VST" }
+		Feature { Network "Sieć" }
+		Feature
+            {
+            Auto-update [ "Automatyczne aktualizacje"; "Użytkownicy na pewno docenią automatyczne aktualizacje powodujące nowe problemy z każdym wydaniem" ]
+            }
+		Feature
+            {
+            Cloudsync [ "Synchronizacja z chmurą"; "Synchronizacja z chmurą to nowa fala, przenieś tam także swoje fale dźwiękowe!" ]
+            }
+		Feature { Newsamples "Nowe sample" }
+		Feature { Newpresets "Nowe presety" }
+		Feature { Phaser "Fazer" }
+		Feature
+            {
+            Filters [ "Filtry"; "Low-pass? High-pass? Tyle rodzajów do wyboru!" ]
+            }
+		Feature { Equalizer "Korektor" }
+		Feature { Harmonizer "Harmonizator" }
+		Feature { Amplifier "Wzmacniacz" }
+		Feature { Pianoroll "Rolka fortepianowa" }
+		Feature
+            {
+            LFoscillator [ "Oscylator LF"; "Wibrato, tremolo, spaghetti-o" ]
+            }
+		Feature { VSTsynthesizer "Syntezator VST" }
+        ]
+	Categories
+        [
+        Category { Synthesizerplug-in "Wtyczka syntezatora" }
+        ]
+    }
+	
+Software
+    {
+    Game
+		[
+		]
+    Features
+        [
+		Feature
+            {
+            Leaderboard
+                [
+                "Tablica wyników"
+                "Prowadź rejestr najlepszych graczy. W 100% tylko do przechwalania się"
+                ]
+            }
+		Feature
+            {
+            Economy
+                [
+                "Ekonomia"
+                "Symuluj ekonomię na żywo, aby przenieść emocje z prawdziwego świata do swojej gry"
+                ]
+            }
+		Feature
+            {
+            Teammanagement
+                [
+                "Zarządzanie zespołem"
+                "Gracze kochają dowodzić, zwłaszcza gdy w grę wchodzą drużyny sportowe"
+                ]
+            }
+		Feature
+            {
+            Customminigames
+                [
+                "Niestandardowe minigry"
+                "Daj graczom narzędzia do tworzenia własnych, okropnych minigier"
+                ]
+            }
+		Feature { Quicktimeevents "Quick Time Events" }
+		Feature
+            {
+            Gamespeedcontrol [ "Kontrola szybkości gry"; "Modyfikuj na bieżąco prędkość symulacji gry, dostosowując ją do swoich upodobań, lub wstrzymaj symulację i wyjdź na zewnątrz" ]
+            }
+		Feature
+            {
+            Photomode [ "Tryb fotograficzny"; "Chyba nie spędziłeś całego tego czasu na tworzeniu tej eleganckiej grafiki tylko po to, żeby NIE pozwolić graczom robić jej zdjęć… prawda?" ]
+            }
+		Feature { Video "Wideo" }
+		Feature
+            {
+            Pre-renderedcutscenes [ "Prerenderowane przerywniki filmowe"; "Zrób swoją grę bardziej F I L M O W Ą" ]
+            }
+		Feature { In-gamereplays "Powtórki w grze" }
+		Feature
+            {
+            LANconnection [ "Połączenie LAN"; "Pozwól graczom łączyć ze sobą swoje urządzenia za pośrednictwem sieci lokalnej. Brzmi jak świetna zabawa!" ]
+            }
+		Feature { Newminigames "Nowe minigry" }
+        Feature
+            {
+            Sportsteams [ "Drużyny sportowe"; "Dodaj parę wierszy do arkusza i wróć do domu" ]
+            }
+        ]
+    Categories
+        [
+		Category { Party "Imprezowa" }
+        ]
+    }
+	
+Software
+    {
+    OfficeSoftware 
+	[
+	]
+    Features
+        [
+		Feature
+            {
+            Autolayout
+                [
+                "Automatyczny układ stron"
+                "Czyli spędzanie 30-stu minut nad dopasowywaniem obrazu do odpowiedniego miejsca"
+                ]
+            }
+		Feature { Guidesandgrids "Prowadnice i siatki" }
+		Feature { Templates "Szablony" }
+		Feature
+            {
+            Complextextrendering [ "Złożone renderowanie tekstu"; "Bez tego te wszystkie nieczytelne kursywy nie byłyby takie same" ]
+            }
+		Feature
+            {
+            Commandbuttons
+                [
+                "Przyciski komend"
+                "Wstawienie tych przycisków pozwoli wykonywać polecenia za jednym kliknięciem"
+                ]
+            }
+        Feature { Mathfunctionslibrary "Biblioteka funkcji matematycznych" }
+        Feature
+            {
+            XMLsupport [ "Wsparcie XML"; "XML. To żyje między pisaniem a kodowaniem" ]
+            }
+		Feature { Scripting "Skrypty" }
+		Feature
+            {
+            Proprietaryformat
+                [
+                "Autorski format"
+                "Stworzenie autorskiego formatu zwiększy sprzedaż, jeśli Twoje oprogramowanie ma wielu aktywnych użytkowników, ale zmniejszy sprzedaż, jeśli będzie ich mało"
+                ]
+            }
+		Feature { Plug-insupport "Wsparcie wtyczek" }
+        Feature { Cloudsync "Synchronizacja z chmurą" }
+		Feature
+            {
+            Auto-update [ "Automatyczne aktualizacje"; "Bo czemu nie?" ]
+            }
+		Feature
+            {
+            Simultaneouscollaboration [ "System współpracy"; "Pozwól wielu użytkownikom pracować nad projektem w tym samym czasie" ]
+            }
+		Feature { Videoplayback "Odtwarzanie wideo" }
+		Feature { Slidetemplates "Szablony slajdów" }
+		Feature { Publicationtemplates "Szablony publikacji" }
+		Feature { Sheettemplates "Szablony arkuszy" }
+        ]
+    Categories
+        [
+		Category 
+			{
+			WordProcessor [ "Edytor Tekstu"; "Do pisania" ]
+			}
+		Category 
+			{
+			Presentation [ "Edytor Prezentacji"; "Do tworzenia prezentacji" ]
+			}
+		Category 
+			{
+			Spreadsheet [ "Edytor Arkuszy Kalkulacyjnych"; "Do tworzenia wykresów liczb" ]
+			}
+		Category 
+			{
+			Publisher [ "Edytor Materiałów Wydawniczych"; "Do tworzenia reklam, plakatów czy wizytówek" ]
+			}
+        ]
+    }
+
+Software
+    {
+    Antivirus
+        [
+        "Antywirus"
+        "Chronimy komputery przez cyfrowymi problemami, odkąd stało się to opłacalne"
+        ]
+    Features
+        [
+		Feature
+            {
+            Virtualprivatenetwork
+                [
+                "Virtual Private Network"
+                "VPN ma wiele zastosowań, ale bądźmy szczerzy, służy głównie do oglądania filmów, które nie są dostępne w Twoim regionie"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    CustomRobot "Robot"
+    Features
+        [
+        Feature { Movementprogram "Program poruszania" }
+        Feature { Autonomousprogram "Program autonomii" }
+        Feature { Hardwaredesign "Projekt sprzętu" }
+        Feature { Camera "Kamera" }
+        Feature { Remotecontrol "Zdalne sterowanie" }
+        Feature { GPS "GPS" }
+        Feature { Gyroscope "Żyroskop" }
+        Feature { Motor "Silnik" }
+        Feature { 2Dvisualization "Wizualizacja 2D" }
+        Feature { 3Dvisualization "Wizualizacja 3D" }
+        Feature { Custom3Dmodel "Niestandardowy model 3D" }
+        Feature { Programsimulation "Symulacja programu" }
+        Feature { Networkintegration "Integracja z siecią" }
+        ]
+    Components
+        [
+        Component { Camera "Kamera" }
+        Component { Motor "Silnik" }
+        Component { GPS "GPS" }
+        Component { Board "Płyta główna" }
+        Component { Gyroscope "Żyroskop" }
+        Component { Body "Korpus" }
+        Component { Microcontroller "Mikrokontroler" }
+        Component { Robotassembly "Montaż robota" }
+        Component { Remotecontrol "Pilot" }
+        ]
+    }
+
+Hardware
+    {
+    Drone              "Dron"
+    OverallHeight      "Całkowita Wysokość"
+    NoseAngle          "Kąt Nosa"
+    ChinAngle          "Kąt Brody"
+    Tail               "Ogon"
+    Stabilizers        "Stabilizatory"
+    drone_cam          "Kamera"
+    headphones_button1 "Potrójny Przycisk"
+    watch_button       "Przycisk"
+    Headphones         "Słuchawki"
+    EarcupWidth        "Szerokość Muszli"
+    HeadbandCurve      "Krzywizna Pałąka"
+    Offset             "Offset"
+    HeadbandTopWidth   "Szerokość Góry Pałąka"
+    EarcupHeight       "Wysokość Muszli"
+    HeadbandSidesWidth "Szerokość Boku Pałąka"
+    Button1c           "Potrójny Przycisk"
+    Button2c           "Przycisk"
+    Watch              "Okrągły Zegarek"
+    BuckleBase         "Podstawa Klamry"
+    OverallWidth       "Całkowita Szerokość"
+    EngravingSize      "Rozmiar Grawerowania"
+    BezelThickness     "Grubość Ramki"
+    BuckleLength       "Długość Klamry"
+    StrapEdge          "Krawędź Paska"
+    WatchThickness     "Grubość Zegarka"
+    watch_dial         "Dial"
+    headphones_button2 "Mały Przycisk"
+    WatchSquare        "Kwadratowy Zegarek"
+    WatchFaceShear     "Scięcie zegarka"
+    ScreenBorder       "Obramowanie Ekranu"
+    WatchWidth         "Szerokość Zegarka"
+    }
+
