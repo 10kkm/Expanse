@@ -1,4 +1,5 @@
 Mod created by MrNewcity
+Mod forked by 10kk
 
 Manufacturing Component Icons:
 Icons created by surang (flaticon.com)
@@ -11,3 +12,4 @@ Texturing and tweaks by MrNewcity
 
 Localizations:
 Russian - translated by 10kk
+Polish - translated by AB0068
