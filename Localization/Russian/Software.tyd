@@ -1119,11 +1119,11 @@ Software
         Feature { Interface "Интерфейс" }
 		Feature
             {
-            Favourites [ "Favourites"; "Keep track of your favourite places" ]
+            Favourites [ "Избранные"; "Следите за своими любимыми местами" ]
             }
 		Feature
             {
-            Nightmode [ "Night mode"; "Change the map to dark colours during nighttime hours for better visibility" ]
+            Nightmode [ "Ночной режим"; "Измените карту на темные цвета в ночное время для лучшей видимости." ]
             }
         Feature
             {
@@ -2218,3 +2218,62 @@ Software
             }
         ]
     }
+
+Software 
+{
+    WebBrowser [
+        "Веб-браузер"
+        "Веб-браузер — это программное приложение для доступа к Всемирной паутине"
+    ]
+    Features
+        [
+        Feature { System "Система" }
+        Feature { Debugger [ "Отладчик" "Позволяет увидеть, сколько памяти, процессора и интернет-соединения требуется для загрузки сайта!" ]}
+        Feature { Multi-Tabs [ "Многозадачность (вкладки)" "Вкладки позволяют загружать несколько сайтов и быстро переключаться между ними." ] }
+        Feature { Plug-insupport "Поддержка плагинов" }
+        Feature { SearchHistory [ "История поиска" "То, что вы очищаете после того, как натворите беспорядок на экране!" ] }
+        Feature { Downloadmanager [ "Менеджер загрузок" "Позволяет пользователям скачивать файлы с сайтов и проверять информацию о них." ] }
+        Feature { Favoritetabs ["Избранные вкладки" "Сохраните ваши любимые сайты, чтобы не вводить длинные ссылки снова!" ] }  
+        Feature { Page-rendering [ "Рендеринг страниц" "Как пользователи будут видеть сайт без его рендеринга?" ] }   
+        Feature { Sidebarforplugins [ "Боковая панель для плагинов" "Легко включать/выключать плагины." ]}
+        Feature { Soundeffects [ "Звуковые эффекты" "Позволяют разработчикам воспроизводить звуки на их сайте!" ] }
+        Feature { Useraccounts [ "Пользовательские аккаунты" "Сохраняйте избранные вкладки и историю в вашем аккаунте!" ] }
+        Feature { Pluginsmarketplace [ "Рынок плагинов" "Позволяет пользователям продавать и покупать пользовательские плагины онлайн. Вы берете небольшую комиссию с каждой покупки на этой платформе" ] }
+        ]
+}
+
+Hardware
+{
+    Drone              "Дрон"
+    OverallHeight      "Общая высота"
+    NoseAngle          "Угол носа"
+    ChinAngle          "Угол подбородка"
+    Tail               "Хвост"
+    Stabilizers        "Стабилизаторы"
+    drone_cam          "Камера"
+    headphones_button1 "Тройная кнопка"
+    watch_button       "Кнопка"
+    Headphones         "Наушники"
+    EarcupWidth        "Ширина чашки"
+    HeadbandCurve      "Изгиб оголовья"
+    Offset             "Смещение"
+    HeadbandTopWidth   "Ширина верхней части оголовья"
+    EarcupHeight       "Высота чашки"
+    HeadbandSidesWidth "Ширина боковых частей оголовья"
+    Button1c           "Тройная кнопка"
+    Button2c           "Одиночная кнопка"
+    Watch              "Круглые часы"
+    BuckleBase         "Основание пряжки"
+    OverallWidth       "Общая ширина"
+    EngravingSize      "Размер гравировки"
+    BezelThickness     "Толщина ободка"
+    BuckleLength       "Длина пряжки"
+    StrapEdge          "Край ремня"
+    WatchThickness     "Толщина часов"
+    watch_dial         "Циферблат"
+    headphones_button2 "Малая кнопка"
+    WatchSquare        "Квадратные часы"
+    WatchFaceShear     "Срез лицевой части часов"
+    ScreenBorder       "Граница экрана"
+    WatchWidth         "Ширина часов"
+}
