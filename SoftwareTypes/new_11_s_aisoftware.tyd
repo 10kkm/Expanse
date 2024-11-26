@@ -4,14 +4,14 @@ SoftwareType
 	Unlock			2010
 	Description		"Developing Artificial Intelligence allows you to contribute to computers becoming the dominant species on Earth"
 	Random			0.35
-	Popularity		0.006
+	Popularity		0.6
 	Retention		36
-	IdealPrice		190
-	OptimalDevTime	55
+	IdealPrice		85
+	OptimalDevTime	115
 	SubmarketNames	[ Intelligence; Utility; Security ]
 	Iterative		1
 	NameGenerator	s_aisoftware
-	OSSupport		[ Computer; Server ]
+	OSSupport		[ Computer; Server; Phone ]
 	InHouse			False
 	Features
 		[
@@ -60,12 +60,12 @@ SoftwareType
 					DevTime		4
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
+					Submarkets	[ 0; 0; 2 ]
 					}
 					{
 					Name		"Logging"
 					Description	"Keep track of what the AI software is doing"
-					DevTime		3
+					DevTime		1
 					Level		1
 					CodeArt		1
 					Submarkets	[ 0; 0; 1 ]
@@ -84,7 +84,7 @@ SoftwareType
 					DevTime		8
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
+					Submarkets	[ 2; 0; 0 ]
 					}
 					{
 					Name		"Plug-in support"
@@ -99,23 +99,23 @@ SoftwareType
 			Name			"Interface"
 			Spec			2D
 			DevTime			5
-			CodeArt			0.9
+			CodeArt			0.7
 			Dependencies	"2D Editor"
 			Submarkets		[ 1; 1; 1 ]
 			Features
 				[
 					{
 					Name		"Data visualization"
-					DevTime		4
+					DevTime		3
 					Level		1
-					CodeArt		1
+					CodeArt		0.5
 					Submarkets	[ 0; 1; 0 ]
 					}
 					{
 					Name		"Visual model building"
-					DevTime		4
+					DevTime		3
 					Level		2
-					CodeArt		1
+					CodeArt		0.6
 					Submarkets	[ 0; 1; 0 ]
 					}
 					{
@@ -123,7 +123,7 @@ SoftwareType
 					Description	"Identify things like text, faces, objects and more in images"
 					DevTime		6
 					Level		2
-					CodeArt		1
+					CodeArt		0.8
 					Submarkets	[ 1; 2; 0 ]
 					}
 				]
@@ -134,38 +134,39 @@ SoftwareType
 			Optional	True
 			DevTime		3
 			CodeArt		1
-			Submarkets	[ 1; 1; 1 ]
+			Submarkets	[ 2; 1; 1 ]
 			Features
 				[
 					{
 					Name		"Cybersecurity threat detection"
 					Description	"Enable AI to learn about cybersecurity threats, and then detect them. Because surely letting an AI system into the heart of your network is a good idea!"
-					DevTime		6
+					DevTime		5
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
+					Server		0.0099
+					Submarkets	[ 0; 0; 2 ]
 					}
 					{
 					Name		"Deployment tools"
 					Description	"Give users tools to deploy their AI systems to their databases and networks"
-					DevTime		4
+					DevTime		3
 					Level		1
-					CodeArt		1
+					CodeArt		0.95
 					Submarkets	[ 0; 1; 0 ]
 					}
 					{
 					Name		"Cloud platform"
-					Server		0.0022
+					Server		0.009
 					DevTime		6
 					Level		2
-					CodeArt		1
-					Submarkets	[ 1; 1; 1 ]
+					CodeArt		0.9
+					Submarkets	[ 1; 2; 1 ]
 					}
 					{
 					Name		"Auto-update"
 					Description	"Ensure AI systems are kept up to date"
 					Server		0.0002
-					DevTime		5
+					DevTime		4
 					Level		2
 					CodeArt		1
 					Submarkets	[ 0; 0; 1 ]
@@ -186,7 +187,7 @@ SoftwareType
 					{
 					Name		"Video identification"
 					Description	"Identify things like people, text, locations and more in videos"
-					DevTime		6
+					DevTime		4
 					Level		2
 					CodeArt		1
 					Submarkets	[ 1; 2; 0 ]
