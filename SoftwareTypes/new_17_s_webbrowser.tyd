@@ -3,12 +3,12 @@ SoftwareType
 	Name			"Web Browser"
 	Description		"A web browser is a software application for accessing the World Wide Web"
 	Unlock 			1990
-	Random			0.1
-	Popularity		0.9
+	Random			0.2
+	Popularity		0.8
 	Retention		64
 	IdealPrice		65
 	OptimalDevTime	35
-	SubmarketNames	[ Simplicity; Versatility; Optimization ] #accessibility; optimization; technology? Graphics; Programming; Stability 
+	SubmarketNames	[ Simplicity; Versatility; Speed ] #accessibility; optimization; technology? Graphics; Programming; Stability 
 	Iterative		1
 	NameGenerator	s_webbrowser
 	OSSupport		[ Computer; Phone ]
@@ -30,7 +30,7 @@ SoftwareType
 					DevTime		2
 					Level		1
 					CodeArt		1
-					Submarkets	[ 0; 1; 1 ]
+					Submarkets	[ 1; 1; 1 ]
 					}
 					{
 					Name		"Multi-Tabs"
@@ -38,14 +38,14 @@ SoftwareType
 					DevTime		2
 					Level		1
 					CodeArt		1
-					Submarkets	[ 1; 1; 0 ]
+					Submarkets	[ 1; 2; 1 ]
 					}						
 					{
 					Name		"Plug-in support"
 					DevTime		4
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 1; 2 ]
+					Submarkets	[ 1; 2; 1 ]
 					}
 					{
 					Name		"Search History"
@@ -53,7 +53,7 @@ SoftwareType
 					DevTime		5
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
+					Submarkets	[ 2; 1; 1 ]
 					}
 					{
 					Name		"Download manager"
@@ -69,7 +69,7 @@ SoftwareType
                     DevTime     2
                     Level       1
                     CodeArt     1
-                    Submarkets [ 1; 0; 0 ]
+                    Submarkets [ 1; 0; 2 ]
                     }
                     {
                     Name        "Page-rendering"
@@ -77,7 +77,7 @@ SoftwareType
                     DevTime 5
                     Level 2
                     CodeArt 1
-                    Submarkets [ 0; 1; 0 ]
+                    Submarkets [ 0; 2; 0 ]
                     }
 				]
 			}
@@ -154,7 +154,7 @@ SoftwareType
 					Server		0.0034
 					Unlock 		1995
 					DevTime		8
-					Level		3
+					Level		2
 					CodeArt		0.8
 					Submarkets	[ 1; 1; 2 ]
 					Script_EndOfDay
