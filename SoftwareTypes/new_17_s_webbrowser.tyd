@@ -2,11 +2,12 @@ SoftwareType
 {
 	Name			"Web Browser"
 	Description		"A web browser is a software application for accessing the World Wide Web"
-	Random			0.2
-	Popularity		1
+	Unlock 			1990
+	Random			0.1
+	Popularity		0.9
 	Retention		64
 	IdealPrice		65
-	OptimalDevTime	25
+	OptimalDevTime	35
 	SubmarketNames	[ Simplicity; Versatility; Optimization ] #accessibility; optimization; technology? Graphics; Programming; Stability 
 	Iterative		1
 	NameGenerator	s_webbrowser
@@ -131,7 +132,7 @@ SoftwareType
 			Name		Network
 			Spec		Network
 			Optional	True
-			Unlock		1985
+			Unlock		1994
 			DevTime		2
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
@@ -140,6 +141,7 @@ SoftwareType
 					{
 					Name		"User accounts"
                     Description "Save favorite tabs and history to your account!"
+					Unlock 		1998
 					DevTime		4
                     Server      0.001
 					Level		1
@@ -150,6 +152,7 @@ SoftwareType
 					Name		"Plugins marketplace"
 					Description	"Allow users to sell and purchase custom plugins online. You take a small royalty from every purchase on this platform"
 					Server		0.0014
+					Unlock 		1995
 					DevTime		8
 					Level		3
 					CodeArt		0.8
