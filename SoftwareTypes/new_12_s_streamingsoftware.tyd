@@ -88,7 +88,7 @@ SoftwareType
 			Name		Network
 			Spec		Network
 			Description	"Livestreaming pretty much relies on this"
-			Server		0.0001
+			Server		0.02
 			DevTime		3
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
@@ -122,7 +122,7 @@ SoftwareType
 					{
 					Name		"Chat bot"
 					Description	"If robots can beat you at chess, they can keep some kids in check for you"
-					Server		0.0001
+					Server		0.001
 					DevTime		4
 					Level		2
 					CodeArt		1
@@ -131,7 +131,7 @@ SoftwareType
 					{
 					Name		"Donation service"
 					Description	"Host a donation service for streamers and take a cut of donations made to streamers through this service"
-					Server		0.0008
+					Server		0.002
 					DevTime		10
 					Level		3
 					CodeArt		1
