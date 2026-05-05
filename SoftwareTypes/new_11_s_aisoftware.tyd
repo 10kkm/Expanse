@@ -156,7 +156,7 @@ SoftwareType
 					}
 					{
 					Name		"Cloud platform"
-					Server		0.009
+					Server		0.05
 					DevTime		6
 					Level		2
 					CodeArt		0.9

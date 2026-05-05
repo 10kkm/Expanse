@@ -159,7 +159,7 @@ SoftwareType
 			{
 			Name		"Network"#11
 			Spec		Network
-			Server		0.0032
+			Server		0.032
 			DevTime		3
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
