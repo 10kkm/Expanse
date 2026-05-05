@@ -1,0 +1,207 @@
+SoftwareType 
+{
+    Name            "VPN"
+    Description     "Your best friend when it comes to the school internet filter. Block the internet filter that blocks the internet!"
+    Unlock          1996
+    Random          0.2
+    IdealPrice      30
+    OptimalDevTime  26
+    SubmarketNames  [ Security; Speed; Accessibility ]
+    Iterative       0.4
+    NameGenerator   s_vpn
+    OSSupport       [ Computer; Phone; Server; Console ]
+    InHouse         False
+    Popularity      0.73
+    Retention       72
+    Features
+        [
+            {
+                Name        "System"
+                Spec        System
+                DevTime     3
+                CodeArt     1
+                Submarkets  [ 2; 2; 1 ]
+                Features
+                [
+                    {
+                        Name        "No-log auditing"
+                        Level       2
+                        DevTime     1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 0 ]
+                        
+                    }
+                    {
+                        Name        "Traffic encryption"
+                        Level       2
+                        Unlock      1997
+                        DevTime     3
+                        CodeArt     1
+                        Submarkets  [ 2; 1; 0 ]
+                    }
+                    {
+                        Name        "Split tunneling"
+                        Description "Feature that allows you to selectively route internet traffic through an encrypted VPN tunnel while allowing other traffic to access the internet directly."
+                        Level       2
+                        DevTime     4
+                        CodeArt     1
+                        Submarkets  [ 2; 1; 0 ]
+                        Unlock      2008
+                    }
+                    {
+                        Name        "Kill switch"
+                        Description "Security feature that automatically disconnects your device from the internet if the VPN connection drops unexpectedly."
+                        Level       1
+                        Unlock      2010
+                        DevTime     2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 0 ]
+                    }
+                    {
+                        Name        "Stealth"
+                        Description "Feature that disguises encrypted VPN traffic as regular HTTPS web browsing."
+                        Level       2
+                        Unlock      2012
+                        DevTime     4
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+                    {
+                        Name        "DNS Leak Protection"
+                        Level       1
+                        Unlock      2014
+                        DevTime     3
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 0 ]
+                    }
+                    {
+                        Name        "Protocol change"
+                        Level       2
+                        Unlock      2015
+                        DevTime     8
+                        CodeArt     1
+                        Submarkets  [ 4; 1; 1 ]
+                    }
+                ]
+            }
+            {
+                Name            "Interface"
+                Spec            2D
+                DevTime         2
+                CodeArt         0.2
+                Submarkets      [ 0; 0; 1 ]
+                Dependencies    "2D Editor"
+                Optional        True
+                Features
+                [
+                    {
+                        Name        "Choose region"
+                        Level       2
+                        DevTime     2
+                        CodeArt     0.3
+                        Submarkets  [0; 2; 1]
+                    }
+                    {
+                        Name        "Server map"
+                        Level       1
+                        DevTime     3
+                        CodeArt     0.4
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+                    {
+                        Name        "Speed test"
+                        Level       1
+                        DevTime     2
+                        CodeArt     0.6
+                        Submarkets  [ 0; 1; 0 ]
+                    }
+                    {
+                        Name        "Dark mode"
+                        Level       1
+                        DevTime     2
+                        CodeArt     0
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+                ]
+            }
+            {
+                Name        "Network"
+                Spec        Network
+                DevTime     6
+                CodeArt     1
+                Submarkets  [ 3; 3; 1 ]
+                Server      0.06
+                Features
+                [
+                    {
+                        Name            "P2P optimized"
+                        Level           1
+                        Unlock          2014
+                        DevTime         4
+                        CodeArt         1
+                        Submarkets      [ 0; 1; 0 ]
+                        Server          0.007
+                    }
+                    {
+                        Name            "Adblock"
+                        Level           1
+                        Unlock          2016
+                        DevTime         3
+                        CodeArt         1
+                        Submarkets      [ 1; 1; 1 ]
+                        Server          0.01
+                    }
+                    {
+                        Name            "Dedicated IP"
+                        Level           2
+                        Unlock          2016
+                        DevTime         2
+                        CodeArt         1
+                        Submarkets      [ 0; 1; 0 ]
+                        Server          0.001
+                    }
+                ]
+            }
+            {
+                Name        "Privacy"
+                Spec        Privacy
+                DevTime     4
+                CodeArt     1
+                Submarkets  [ 1; 0; 0 ]
+                Optional    True
+                Server      0.002
+                Features
+                [
+                    {
+                        Name            "Tor over VPN"
+                        Level           2
+                        Unlock          2016
+                        DevTime         8
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Server          0.006
+                    }
+                    {
+                        Name            "Multi-hop"
+                        Description     "Advanced security feature that routes online traffic through two VPN servers, encrypting your data twice and providing higher anonymity."
+                        Level           2
+                        Unlock          2013
+                        DevTime         4
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Server          0.05
+                    }
+                    {
+                        Name            "Tracker blocker"
+                        Level           2
+                        Unlock          2017
+                        DevTime         3
+                        CodeArt         1
+                        Submarkets      [ 4; 1; 0 ]
+                        Server          0.005
+                    }
+                ]
+            }
+            
+        ]
+}
