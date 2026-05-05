@@ -7,9 +7,9 @@ SoftwareType
 	Popularity		0.7
 	Retention		24
 	IdealPrice		80
-	OptimalDevTime	30
+	OptimalDevTime	45
 	SubmarketNames	[ Security; Speed; Sharing ]
-	Iterative		1
+	Iterative		0.3
 	NameGenerator	s_cloudservice
 	OSSupport		[ Computer; Phone; Server ]
 	InHouse			False
